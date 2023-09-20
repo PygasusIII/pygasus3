@@ -306,10 +306,10 @@ def CleanUp(signal, intFlag = False):
 
     Parameters
     ----------
-    signal : raw signal loaded from igor containg a data key that has the y
+    signal : raw signal loaded from igor containing a data key that has the y
         values and a deltaX key that has the delta x for the data spacing.
     
-    intFlag : boolian flag to digitally integrate signal
+    intFlag : boolean flag to digitally integrate signal
 
     Returns
     -------
